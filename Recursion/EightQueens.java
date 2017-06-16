@@ -1,3 +1,6 @@
+/**
+ * Time complexity is O(n^3)
+ */
 package Recursion;
 
 public class EightQueens {
@@ -8,7 +11,7 @@ public class EightQueens {
 		numQueens = 0; 
 		board = new int[8][8];
 		for(int i = 0; i < 8; i++){
-			for(int j =0; j<8; j++){
+			for(int j = 0; j < 8; j++){
 				board[i][j] = 0; 
 			}
 		}
@@ -58,7 +61,6 @@ public class EightQueens {
 				return false; 
 			}
 		}
-		
 		return true; 
 	}
 	
@@ -71,7 +73,6 @@ public class EightQueens {
 			board[x][y]=0;
 			return 0; 
 		}
-		
 		return -1; 
 	}
 	
