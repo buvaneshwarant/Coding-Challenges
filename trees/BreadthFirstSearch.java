@@ -21,6 +21,7 @@ class Node {
 		return children;
 	}
 }
+
 public class BreadthFirstSearch {
 	private Node root;
 	
@@ -72,5 +73,4 @@ public class BreadthFirstSearch {
 		
 		BreadthFirstSearch perm = new BreadthFirstSearch(three_first); 
 	}
-
 }
